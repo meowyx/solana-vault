@@ -52,10 +52,10 @@ Before you begin, ensure you have the following installed:
    ```
 
 4. **Run tests** (requires a local validator):
-   ```bash
-surfpool start
+   ```
+    surfpool start
 
-anchor test --skip-local-validator
+    anchor test --skip-local-validator
    ```
 
 ## Usage
@@ -74,6 +74,7 @@ await program.methods
     systemProgram: SystemProgram.programId,
   })
   .rpc();
+
 ```
 
 ### Depositing SOL
